@@ -99,10 +99,10 @@
 #endif
 #ifndef Z_STOP_PIN
   #ifndef Z_MIN_PIN
-    #define Z_MIN_PIN                         18
+    #define Z_MIN_PIN                         19 // MIN SWAPPED WITH MAX (WAGGSTER)
   #endif
   #ifndef Z_MAX_PIN
-    #define Z_MAX_PIN                         19
+    #define Z_MAX_PIN                         18// MAX SWAPPED WITH MIN (WAGGSTER)
   #endif
 #endif
 
